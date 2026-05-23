@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "updated_at": "2026-05-23",
   "apps": {
     "instagram": {
@@ -56,7 +56,10 @@
         "com.ss.android.ugc.trill"
       ],
       "scroll_cooldown_ms": 800,
-      "entry_grace_ms": 1500
+      "entry_grace_ms": 1500,
+      "reel_view_id_markers": [
+        "tiktok_fluid_layer_id"
+      ]
     },
     "snapchat": {
       "package": "com.snapchat.android",
