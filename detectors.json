@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updated_at": "2026-05-23",
   "apps": {
     "instagram": {
@@ -65,7 +65,8 @@
       ],
       "reel_view_id_markers": [
         "spotlight",
-        "discover_feed_swipe"
+        "discover_feed_swipe",
+        "snap_spotlight_custom_2026"
       ],
       "scroll_cooldown_ms": 800,
       "entry_grace_ms": 1500
