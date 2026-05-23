@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "updated_at": "2026-05-23",
   "apps": {
     "instagram": {
@@ -45,7 +45,8 @@
       ],
       "reel_view_id_markers": [
         "reel_progress_bar",
-        "yt_shorts_container_2026"
+        "yt_shorts_container_2026",
+        "apps_list_view"
       ],
       "scroll_cooldown_ms": 900,
       "entry_grace_ms": 1800,
