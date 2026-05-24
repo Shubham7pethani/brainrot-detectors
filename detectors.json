@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updated_at": "2026-05-23",
+  "version": 9,
+  "updated_at": "2026-05-24",
   "apps": {
     "instagram": {
       "package": "com.instagram.android",
@@ -32,7 +32,8 @@
         "audio_attribution_pill",
         "custom_obfuscated_reel_container_id",
         "ig_obfuscated_container_2026",
-        "message_composer_bar"
+        "message_composer_bar",
+        "main_list_view"
       ],
       "scroll_cooldown_ms": 800,
       "entry_grace_ms": 1500
