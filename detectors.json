@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "updated_at": "2026-05-24",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "clips_expanded_touch_view",
         "bottom_sheet_container",
         "clips_viewer_view_pager",
         "clips_viewer_container",
@@ -40,6 +41,9 @@
         "reel"
       ],
       "primary_controller_root_ids": [
+        "pivot_bar",
+        "watch_while_layout_coordinator_layout",
+        "reel_time_bar",
         "reel_player_page_container",
         "shorts_player",
         "reel_recycler",
