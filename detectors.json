@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "updated_at": "2026-05-24",
   "apps": {
     "instagram": {
@@ -33,7 +33,8 @@
         "custom_obfuscated_reel_container_id",
         "ig_obfuscated_container_2026",
         "message_composer_bar",
-        "main_list_view"
+        "main_list_view",
+        "clips_tab"
       ],
       "scroll_cooldown_ms": 800,
       "entry_grace_ms": 1500
