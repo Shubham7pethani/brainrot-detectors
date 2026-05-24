@@ -1,79 +1,73 @@
 {
-  "version": 18,
-  "updated_at": "2026-05-24",
-  "apps": {
-    "instagram": {
-      "package": "com.instagram.android",
-      "reel_class_keywords": [
-        "reel",
-        "clip"
-      ],
-      "non_reel_class_keywords": [
-        "settings",
-        "profile",
-        "comment",
-        "dm",
-        "directthread",
-        "inbox",
-        "search",
-        "explore",
-        "notification",
-        "create",
-        "story"
-      ],
-      "reel_view_id_markers": [
-        "clips_viewer",
-        "clips_action_bar",
-        "clips_recycler",
-        "clip_main_recycler",
-        "reel_viewer",
-        "reels_tab",
-        "clips_remix",
-        "audio_attribution_pill",
-        "clips_tab",
-        "main_list_view"
-      ],
-      "scroll_cooldown_ms": 800,
-      "entry_grace_ms": 1500
-    },
-    "youtube": {
-      "package": "com.google.android.youtube",
-      "reel_class_keywords": [
-        "short",
-        "reel"
-      ],
-      "reel_view_id_markers": [
-        "reel_progress_bar",
-        "yt_shorts_container_2026",
-        "reel_time_bar"
-      ],
-      "scroll_cooldown_ms": 900,
-      "entry_grace_ms": 1800,
-      "min_fingerprint_text_len": 10
-    },
-    "tiktok": {
-      "packages": [
-        "com.zhiliaoapp.musically",
-        "com.ss.android.ugc.trill"
-      ],
-      "scroll_cooldown_ms": 800,
-      "entry_grace_ms": 1500,
-      "reel_view_id_markers": [
-        "tiktok_fluid_layer_id"
-      ]
-    },
-    "snapchat": {
-      "package": "com.snapchat.android",
-      "reel_class_keywords": [
-        "spotlight"
-      ],
-      "reel_view_id_markers": [
-        "spotlight",
-        "discover_feed_swipe",
-        "snap_spotlight_custom_2026"
-      ],
-      "scroll_cooldown_ms": 800,
-      "entry_grace_ms": 1500
-    }
-  }
+    "version":  19,
+    "updated_at":  "2026-05-24",
+    "apps":  {
+                 "instagram":  {
+                                   "package":  "com.instagram.android",
+                                   "reel_class_keywords":  [
+                                                               "reel",
+                                                               "clip"
+                                                           ],
+                                   "non_reel_class_keywords":  [
+                                                                   "settings",
+                                                                   "profile",
+                                                                   "comment",
+                                                                   "dm",
+                                                                   "directthread",
+                                                                   "inbox",
+                                                                   "search",
+                                                                   "explore",
+                                                                   "notification",
+                                                                   "create",
+                                                                   "story"
+                                                               ],
+                                   "reel_view_id_markers":  [
+                                                                "clips_viewer",
+                                                                "clips_action_bar",
+                                                                "clips_recycler",
+                                                                "clip_main_recycler",
+                                                                "reel_viewer",
+                                                                "reels_tab",
+                                                                "clips_remix",
+                                                                "audio_attribution_pill",
+                                                                "main_list_view"
+                                                            ],
+                                   "scroll_cooldown_ms":  800,
+                                   "entry_grace_ms":  1500
+                               },
+                 "youtube":  {
+                                 "package":  "com.google.android.youtube",
+                                 "reel_class_keywords":  [
+                                                             "short",
+                                                             "reel"
+                                                         ],
+                                 "reel_view_id_markers":  "reel_progress_bar",
+                                 "scroll_cooldown_ms":  900,
+                                 "entry_grace_ms":  1800,
+                                 "min_fingerprint_text_len":  10
+                             },
+                 "tiktok":  {
+                                "packages":  [
+                                                 "com.zhiliaoapp.musically",
+                                                 "com.ss.android.ugc.trill"
+                                             ],
+                                "scroll_cooldown_ms":  800,
+                                "entry_grace_ms":  1500,
+                                "reel_view_id_markers":  [
+                                                             "tiktok_fluid_layer_id"
+                                                         ]
+                            },
+                 "snapchat":  {
+                                  "package":  "com.snapchat.android",
+                                  "reel_class_keywords":  [
+                                                              "spotlight"
+                                                          ],
+                                  "reel_view_id_markers":  [
+                                                               "spotlight",
+                                                               "discover_feed_swipe"
+                                                           ],
+                                  "scroll_cooldown_ms":  800,
+                                  "entry_grace_ms":  1500
+                              }
+             }
 }
