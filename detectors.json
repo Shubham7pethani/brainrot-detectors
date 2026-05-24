@@ -1,5 +1,5 @@
 {
-    "version":  19,
+    "version":  20,
     "updated_at":  "2026-05-24",
     "apps":  {
                  "instagram":  {
@@ -21,17 +21,13 @@
                                                                    "create",
                                                                    "story"
                                                                ],
-                                   "reel_view_id_markers":  [
-                                                                "clips_viewer",
-                                                                "clips_action_bar",
-                                                                "clips_recycler",
-                                                                "clip_main_recycler",
-                                                                "reel_viewer",
-                                                                "reels_tab",
-                                                                "clips_remix",
-                                                                "audio_attribution_pill",
-                                                                "main_list_view"
-                                                            ],
+                                   "primary_controller_root_ids":  [
+                                                                       "clips_viewer_container",
+                                                                       "clip_main_recycler",
+                                                                       "clips_viewer",
+                                                                       "reel_viewer",
+                                                                       "clips_recycler"
+                                                                   ],
                                    "scroll_cooldown_ms":  800,
                                    "entry_grace_ms":  1500
                                },
@@ -41,7 +37,13 @@
                                                              "short",
                                                              "reel"
                                                          ],
-                                 "reel_view_id_markers":  "reel_progress_bar",
+                                 "primary_controller_root_ids":  [
+                                                                     "reel_player_page_container",
+                                                                     "shorts_player",
+                                                                     "reel_recycler",
+                                                                     "reel_player",
+                                                                     "reel_progress_bar"
+                                                                 ],
                                  "scroll_cooldown_ms":  900,
                                  "entry_grace_ms":  1800,
                                  "min_fingerprint_text_len":  10
@@ -51,21 +53,21 @@
                                                  "com.zhiliaoapp.musically",
                                                  "com.ss.android.ugc.trill"
                                              ],
+                                "primary_controller_root_ids":  [
+                                                                    "tiktok_fluid_layer_id"
+                                                                ],
                                 "scroll_cooldown_ms":  800,
-                                "entry_grace_ms":  1500,
-                                "reel_view_id_markers":  [
-                                                             "tiktok_fluid_layer_id"
-                                                         ]
+                                "entry_grace_ms":  1500
                             },
                  "snapchat":  {
                                   "package":  "com.snapchat.android",
                                   "reel_class_keywords":  [
                                                               "spotlight"
                                                           ],
-                                  "reel_view_id_markers":  [
-                                                               "spotlight",
-                                                               "discover_feed_swipe"
-                                                           ],
+                                  "primary_controller_root_ids":  [
+                                                                      "spotlight",
+                                                                      "discover_feed_swipe"
+                                                                  ],
                                   "scroll_cooldown_ms":  800,
                                   "entry_grace_ms":  1500
                               }
