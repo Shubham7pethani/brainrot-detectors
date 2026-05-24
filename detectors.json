@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "updated_at": "2026-05-24",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "bottom_sheet_container",
         "clips_viewer_view_pager",
         "clips_viewer_container",
         "clip_main_recycler",
