@@ -1,6 +1,6 @@
 {
-  "version": 25,
-  "updated_at": "2026-05-25",
+  "version": 26,
+  "updated_at": "2026-05-29",
   "apps": {
     "instagram": {
       "package": "com.instagram.android",
@@ -41,6 +41,8 @@
         "reel"
       ],
       "primary_controller_root_ids": [
+        "pivot_bar",
+        "watch_while_layout_coordinator_layout",
         "reel_time_bar",
         "reel_player_page_container",
         "shorts_player",
@@ -52,17 +54,6 @@
       "entry_grace_ms": 1800,
       "min_fingerprint_text_len": 10
     },
-    "tiktok": {
-      "packages": [
-        "com.zhiliaoapp.musically",
-        "com.ss.android.ugc.trill"
-      ],
-      "primary_controller_root_ids": [
-        "tiktok_fluid_layer_id"
-      ],
-      "scroll_cooldown_ms": 800,
-      "entry_grace_ms": 1500
-    },
     "snapchat": {
       "package": "com.snapchat.android",
       "reel_class_keywords": [
@@ -72,6 +63,21 @@
         "spotlight",
         "discover_feed_swipe"
       ],
+      "scroll_cooldown_ms": 800,
+      "entry_grace_ms": 1500
+    },
+    "sharechat": {
+      "package": "in.mohalla.sharechat",
+      "reel_class_keywords": [
+        "videoplayer",
+        "VideoPlayer"
+      ],
+      "primary_controller_root_ids": [
+        "video_player_root",
+        "recycler_view_video",
+        "exo_player_frame"
+      ],
+      "watch_threshold_ms": 4000,
       "scroll_cooldown_ms": 800,
       "entry_grace_ms": 1500
     }
