@@ -1,6 +1,6 @@
 {
-  "version": 27,
-  "updated_at": "2026-05-30",
+  "version": 28,
+  "updated_at": "2026-05-31",
   "apps": {
     "instagram": {
       "package": "com.instagram.android",
