@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 30,
   "updated_at": "2026-05-31",
   "apps": {
     "instagram": {
@@ -41,6 +41,7 @@
         "reel"
       ],
       "primary_controller_root_ids": [
+        "test_aria_reel_container",
         "pivot_bar",
         "watch_while_layout_coordinator_layout",
         "reel_time_bar",
