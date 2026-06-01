@@ -1,6 +1,6 @@
 {
-  "version": 32,
-  "updated_at": "2026-05-31",
+  "version": 33,
+  "updated_at": "2026-06-01",
   "apps": {
     "instagram": {
       "package": "com.instagram.android",
@@ -22,7 +22,6 @@
         "story"
       ],
       "primary_controller_root_ids": [
-        "test_reel_container_com_instagram_android",
         "bottom_sheet_container",
         "clips_viewer_view_pager",
         "clips_expanded_touch_view",
@@ -42,7 +41,6 @@
         "reel"
       ],
       "primary_controller_root_ids": [
-        "test_aria_reel_container",
         "pivot_bar",
         "watch_while_layout_coordinator_layout",
         "reel_time_bar",
