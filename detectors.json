@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "updated_at": "2026-06-02",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "video_container",
         "outer_container",
         "notification",
         "bottom_sheet_container",
