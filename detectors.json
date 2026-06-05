@@ -1,5 +1,5 @@
 {
-  "version": 39,
+  "version": 40,
   "updated_at": "2026-06-05",
   "apps": {
     "instagram": {
@@ -40,8 +40,6 @@
         "reel"
       ],
       "primary_controller_root_ids": [
-        "pivot_bar",
-        "watch_while_layout_coordinator_layout",
         "reel_time_bar",
         "reel_player_page_container",
         "shorts_player",
