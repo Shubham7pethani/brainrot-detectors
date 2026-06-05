@@ -1,6 +1,6 @@
 {
-  "version": 38,
-  "updated_at": "2026-06-02",
+  "version": 39,
+  "updated_at": "2026-06-05",
   "apps": {
     "instagram": {
       "package": "com.instagram.android",
@@ -22,12 +22,6 @@
         "story"
       ],
       "primary_controller_root_ids": [
-        "list",
-        "secondary_label",
-        "video_container",
-        "outer_container",
-        "notification",
-        "bottom_sheet_container",
         "clips_viewer_view_pager",
         "clips_expanded_touch_view",
         "clips_viewer_container",
