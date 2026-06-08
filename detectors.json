@@ -1,5 +1,5 @@
 {
-  "version": 52,
+  "version": 53,
   "updated_at": "2026-06-08",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "follow_button",
         "avatar_container",
         "row_inbox_container",
         "action_bar_new_title_container",
