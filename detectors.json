@@ -1,5 +1,5 @@
 {
-  "version": 58,
+  "version": 59,
   "updated_at": "2026-06-08",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "inbox_refreshable_thread_list_recyclerview",
         "igds_action_bar_title",
         "action_bar_title_view",
         "action_bar_overflow_text",
