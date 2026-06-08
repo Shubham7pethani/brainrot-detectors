@@ -1,5 +1,5 @@
 {
-  "version": 42,
+  "version": 43,
   "updated_at": "2026-06-08",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "carousel_media_group",
         "notification",
         "video_container",
         "clips_viewer_view_pager",
