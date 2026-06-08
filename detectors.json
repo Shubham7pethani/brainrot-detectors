@@ -1,5 +1,5 @@
 {
-  "version": 67,
+  "version": 68,
   "updated_at": "2026-06-08",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "pog_music_note_song_title_text",
         "pog_bubble_text",
         "row_inbox_timestamp",
         "row_inbox_digest",
