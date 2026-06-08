@@ -1,5 +1,5 @@
 {
-  "version": 57,
+  "version": 58,
   "updated_at": "2026-06-08",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "igds_action_bar_title",
         "action_bar_title_view",
         "action_bar_overflow_text",
         "action_bar_title",
