@@ -1,5 +1,5 @@
 {
-  "version": 47,
+  "version": 48,
   "updated_at": "2026-06-08",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "list",
         "pog_music_note_artist_name",
         "pog_root_view",
         "map_pog_container",
