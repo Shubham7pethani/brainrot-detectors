@@ -1,5 +1,5 @@
 {
-  "version": 62,
+  "version": 63,
   "updated_at": "2026-06-08",
   "apps": {
     "instagram": {
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "row_feed_view_group_buttons",
         "row_feed_profile_header",
         "title_logo",
         "direct_quick_snap_consumption_preview",
