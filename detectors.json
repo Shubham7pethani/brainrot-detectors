@@ -1,5 +1,5 @@
 {
-  "version": 71,
+  "version": 72,
   "updated_at": "2026-06-10",
   "apps": {
     "instagram": {
@@ -22,8 +22,6 @@
         "story"
       ],
       "primary_controller_root_ids": [
-        "preview_clip_thumbnail",
-        "clips_bottom_legibility_gradient_component",
         "clips_viewer_view_pager",
         "clips_viewer",
         "clips_viewer_container",
