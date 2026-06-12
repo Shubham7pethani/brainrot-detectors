@@ -1,6 +1,6 @@
 {
-  "version": 73,
-  "updated_at": "2026-06-10",
+  "version": 74,
+  "updated_at": "2026-06-12",
   "apps": {
     "instagram": {
       "package": "com.instagram.android",
@@ -22,6 +22,7 @@
         "story"
       ],
       "primary_controller_root_ids": [
+        "search_section_container",
         "clips_grid_recyclerview",
         "clips_viewer_view_pager",
         "clips_viewer",
