@@ -1,6 +1,6 @@
 {
-  "version": 74,
-  "updated_at": "2026-06-12",
+  "version": 75,
+  "updated_at": "2026-06-13",
   "apps": {
     "instagram": {
       "package": "com.instagram.android",
@@ -22,8 +22,6 @@
         "story"
       ],
       "primary_controller_root_ids": [
-        "search_section_container",
-        "clips_grid_recyclerview",
         "clips_viewer_view_pager",
         "clips_viewer",
         "clips_viewer_container",
@@ -69,8 +67,7 @@
         "spotlight"
       ],
       "primary_controller_root_ids": [
-        "spotlight",
-        "discover_feed_swipe"
+        "spotlight"
       ],
       "scroll_cooldown_ms": 800,
       "entry_grace_ms": 1500
@@ -83,7 +80,6 @@
       ],
       "primary_controller_root_ids": [
         "video_player_root",
-        "recycler_view_video",
         "exo_player_frame"
       ],
       "watch_threshold_ms": 4000,
