@@ -1,6 +1,6 @@
 {
-  "version": 75,
-  "updated_at": "2026-06-13",
+  "version": 76,
+  "updated_at": "2026-06-18",
   "apps": {
     "instagram": {
       "package": "com.instagram.android",
@@ -40,6 +40,7 @@
         "reel"
       ],
       "primary_controller_root_ids": [
+        "reel_a11y_controls",
         "reel_time_bar",
         "reel_player_page_container",
         "shorts_player",
